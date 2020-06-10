@@ -22,15 +22,12 @@ async function init () {
   })
 }
 
-async function addTodo (todo) {
-  await knex('todos').insert(todo)
-  console.log('todo added')
+function addTodo (todo) {
+  return knex('todos').insert(todo)
 }
 
-async function getTodos () {
-  const todos = await knex('todos').select('*')
-  console.log('todos got', todos)
-  return todos
+function getTodos () {
+  return knex('todos').select('*')
 }
 
 module.exports = {
