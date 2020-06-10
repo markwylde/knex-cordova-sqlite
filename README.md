@@ -1,5 +1,10 @@
-# Knex Driver for SQLite in Cordova
+# knex-cordova-sqlite
 Allows you to use Knex inside a Cordova app.
+
+## Prerequisites
+This library does not actually provide any bindings to sqlite, but instead connects the [cordova-sqlite-storage](https://github.com/xpbrew/cordova-sqlite-storage) provided API to Knex.
+
+Therefore, you need to add the cordova-sqlite-storage plugin to your app.
 
 ## Installation
 ```bash
