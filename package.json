@@ -1,6 +1,6 @@
 {
   "name": "knex-cordova-sqlite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A driver or dialect for using knex with a Cordova or PhoneGap app",
   "repository": {
     "type": "git",

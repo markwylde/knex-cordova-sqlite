@@ -26,7 +26,7 @@ function Database (filename, callback) {
     },
     run: function (sql, params, callback) {
       db.executeSql(sql, params || [], function (rs) {
-        callback(null, rs);
+        callback.call({ lastID: rs.insertId }, null, rs);
       }, callback);
     }
   };
