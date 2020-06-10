@@ -1,12 +1,33 @@
 {
   "name": "knex-cordova-sqlite",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A driver or dialect for using knex with a cordova or phonegap app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwylde/knex-cordova-sqlite.git"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "knex",
+    "sqlite",
+    "orm"
+  ],
+  "files": [
+    "*.js",
+    "README.md"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/markwylde/knex-cordova-sqlite/issues"
+  },
+  "homepage": "https://github.com/markwylde/knex-cordova-sqlite#readme",
+  "author": "Mark Wylde <me@markwylde.com>",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.21.1"
+  }
 }
