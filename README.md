@@ -1,5 +1,5 @@
 # Knex Driver for SQLite in Cordova
-Allows you to use Knex inside a cordova app.
+Allows you to use Knex inside a Cordova app.
 
 ## Installation
 ```bash
