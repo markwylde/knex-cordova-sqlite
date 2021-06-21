@@ -28,6 +28,6 @@
   "author": "Mark Wylde <me@markwylde.com>",
   "license": "MIT",
   "dependencies": {
-    "knex": "^0.21.1"
+    "knex": "^0.95.6"
   }
 }
